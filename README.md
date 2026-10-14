@@ -155,7 +155,8 @@ ruff check .      # lint
 
 ## Citation
 
-If you use this code, please cite the repository. A paper citation will be added once it's published.
+If you use this code, please cite the repository and the following paper
+https://doi.org/10.1093/gbe/evag125
 
 ## License
 
