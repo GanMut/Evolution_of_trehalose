@@ -3,9 +3,11 @@
 [![CI](https://github.com/GanMut/Evolution_of_trehalose/actions/workflows/ci.yml/badge.svg)](https://github.com/GanMut/Evolution_of_trehalose/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+[![Paper](https://img.shields.io/badge/GBE-10.1093%2Fgbe%2Fevag125-b31b1b)](https://doi.org/10.1093/gbe/evag125)
 
 These are the tools behind my PhD project on the **evolution of trehalose metabolism across the tree
-of life**. The work covers enzyme homolog searches across hundreds of eukaryotic and prokaryotic genomes,
+of life**, published as *Evolutionary Analysis of Trehalose Breakdown Pathways*
+([Genome Biology and Evolution, 2026](https://doi.org/10.1093/gbe/evag125)). The work covers enzyme homolog searches across hundreds of eukaryotic and prokaryotic genomes,
 species trees, orthology, horizontal gene transfer (HGT), and pathway presence/absence analyses.
 
 Everything is packaged as one command-line tool, `evotools`, which you can also import as a Python
@@ -155,8 +157,27 @@ ruff check .      # lint
 
 ## Citation
 
-If you use this code, please cite the repository and the following paper
-https://doi.org/10.1093/gbe/evag125
+If you use this code, please cite the paper:
+
+> Ganesh Muthu G, Sunil Laxman, Aswin Sai Narain Seshasayee (2026).
+> **Evolutionary Analysis of Trehalose Breakdown Pathways.**
+> *Genome Biology and Evolution* 18(6): evag125. https://doi.org/10.1093/gbe/evag125
+
+```bibtex
+@article{muthu2026trehalose,
+  title   = {Evolutionary Analysis of Trehalose Breakdown Pathways},
+  author  = {G, Ganesh Muthu and Laxman, Sunil and Seshasayee, Aswin Sai Narain},
+  journal = {Genome Biology and Evolution},
+  volume  = {18},
+  number  = {6},
+  pages   = {evag125},
+  year    = {2026},
+  doi     = {10.1093/gbe/evag125}
+}
+```
+
+GitHub's **"Cite this repository"** button (right sidebar) gives the same in APA/BibTeX, from
+[`CITATION.cff`](CITATION.cff).
 
 ## License
 

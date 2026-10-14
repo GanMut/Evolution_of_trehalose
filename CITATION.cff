@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below and this repository."
+title: "evotools: comparative genomics and phylogenomics toolkit (Evolution of Trehalose)"
+type: software
+version: 0.1.0
+date-released: 2026-10-14
+license: MIT
+repository-code: "https://github.com/GanMut/Evolution_of_trehalose"
+keywords:
+  - trehalose
+  - molecular evolution
+  - phylogenomics
+  - horizontal gene transfer
+  - orthology
+  - bioinformatics
+authors:
+  - given-names: Ganesh Muthu
+    family-names: G
+    orcid: "https://orcid.org/0000-0001-6239-6061"
+preferred-citation:
+  type: article
+  title: "Evolutionary Analysis of Trehalose Breakdown Pathways"
+  authors:
+    - given-names: Ganesh Muthu
+      family-names: G
+      orcid: "https://orcid.org/0000-0001-6239-6061"
+    - given-names: Sunil
+      family-names: Laxman
+      orcid: "https://orcid.org/0000-0002-0861-5080"
+    - given-names: Aswin Sai Narain
+      family-names: Seshasayee
+      orcid: "https://orcid.org/0000-0001-7028-1803"
+  journal: "Genome Biology and Evolution"
+  year: 2026
+  month: 5
+  volume: 18
+  issue: 6
+  start: evag125
+  doi: "10.1093/gbe/evag125"
+  url: "https://doi.org/10.1093/gbe/evag125"
