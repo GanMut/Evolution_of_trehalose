@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evotools"
+version = "0.1.0"
+description = "Comparative genomics and phylogenomics toolkit from the Evolution of Trehalose project"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Ganesh Muthu G" }]
+keywords = ["bioinformatics", "phylogenomics", "orthology", "BLAST", "HMMER", "iTOL", "trehalose"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "numpy>=1.22",
+    "pandas>=1.5",
+]
+
+[project.optional-dependencies]
+parquet = ["pyarrow>=10"]
+ml = ["scikit-learn>=1.1"]
+umap = ["scikit-learn>=1.1", "umap-learn>=0.5"]
+plots = ["matplotlib>=3.5"]
+all = ["pyarrow>=10", "scikit-learn>=1.1", "umap-learn>=0.5", "matplotlib>=3.5"]
+dev = ["pytest>=7", "ruff>=0.4", "pyarrow>=10", "scikit-learn>=1.1", "matplotlib>=3.5"]
+
+[project.scripts]
+evotools = "evotools.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/GanMut/Evolution_of_trehalose"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]

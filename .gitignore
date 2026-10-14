@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large / generated data — keep raw data out of git
+*.faa
+*.fna
+*.fasta
+*.fa
+*.gz
+*.parquet
+*.domtbl
+*.hmm
+*.treefile
+*.log
+blast.tsv
+homologs/
+species_tree/
+rbh_out/
+logs_qsub/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
